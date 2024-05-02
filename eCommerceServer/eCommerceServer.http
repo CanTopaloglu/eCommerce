@@ -1,0 +1,23 @@
+@eCommerceServer_HostAddress = http://localhost:5144
+
+POST http://localhost:5144/api/Auth/Login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "tanersaydam@gmail.com",
+    "password": "Password1234"
+}
+###
+
+GET https://localhost:7113/api/ShoppingCarts/GetAll
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiRW1haWwiOiJ0YW5lcnNheWRhbUBnbWFpbC5jb20iLCJOYW1lIjoiVGFuZXIgU2F5ZGFtIiwibmJmIjoxNzE0NjQ4NDI2LCJleHAiOjE3MTczMjY4MjYsImlzcyI6IlRhbmVyIFNheWRhbSIsImF1ZCI6ImxvY2FsaG9zdDo0MjAwIn0.z14E2heGGYeG2z6bve6ryvkh3cvdHTOVjnKM8w5q5shjjZvpw8t4JYMT2jyvfXP0CU09tTIqBdeGZMYpMnngpA
+
+###
+
+GET https://localhost:7113/api/Orders/GetAll
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIyIiwiRW1haWwiOiJ0YW5lcnNheWRhbUBnbWFpbC5jb20iLCJOYW1lIjoiVGFuZXIgU2F5ZGFtIiwibmJmIjoxNzE0NjQ4NDI2LCJleHAiOjE3MTczMjY4MjYsImlzcyI6IlRhbmVyIFNheWRhbSIsImF1ZCI6ImxvY2FsaG9zdDo0MjAwIn0.z14E2heGGYeG2z6bve6ryvkh3cvdHTOVjnKM8w5q5shjjZvpw8t4JYMT2jyvfXP0CU09tTIqBdeGZMYpMnngpA
+
+###
